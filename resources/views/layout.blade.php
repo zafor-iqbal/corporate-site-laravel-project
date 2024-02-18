@@ -52,21 +52,21 @@
                             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                                 <ul class="navbar-nav">
                                     <li class="nav-item"><a href="{{'/'}}" class="nav-link">Home</a></li>
-                                    <li class="nav-item"><a href="demo-corporate-about.html" class="nav-link">About</a></li>
+                                    <li class="nav-item"><a href="{{'/about'}}" class="nav-link">About</a></li>
                                     <li class="nav-item dropdown dropdown-with-icon-style02">
-                                        <a href="demo-corporate-services.html" class="nav-link">Services</a>
+                                        <a href="{{'/services'}}" class="nav-link">Services</a>
                                         <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                            <li><a href="demo-corporate-services-details.html"><i class="line-icon-Medal-2"></i>Business planning</a></li>
-                                            <li><a href="demo-corporate-services-details.html"><i class="line-icon-Archery-2"></i>Market research</a></li>
-                                            <li><a href="demo-corporate-services-details.html"><i class="line-icon-Financial"></i>Business consulting</a></li>
-                                            <li><a href="demo-corporate-services-details.html"><i class="line-icon-Money-Bag"></i>Audience analysis</a></li>
+                                            <li><a href="{{'/business-planning'}}"><i class="line-icon-Medal-2"></i>Business planning</a></li>
+                                            <li><a href="{{'/market-research'}}"><i class="line-icon-Archery-2"></i>Market research</a></li>
+                                            <li><a href="{{'/business-consulting'}}"><i class="line-icon-Financial"></i>Business consulting</a></li>
+                                            <li><a href="{{'/audience-analysis'}}"><i class="line-icon-Money-Bag"></i>Audience analysis</a></li>
                                         </ul>
                                     </li>
-                                    <li class="nav-item"><a href="demo-corporate-customer-stories.html" class="nav-link">Testimonials</a></li>
-                                    <li class="nav-item"><a href="demo-corporate-pricing.html" class="nav-link">Pricing</a></li>
-                                    <li class="nav-item"><a href="demo-corporate-blog.html" class="nav-link">Blog</a></li>
-                                    <li class="nav-item"><a href="demo-corporate-contact.html" class="nav-link">Contact</a></li>
+                                    <li class="nav-item"><a href="{{'/testimonials'}}" class="nav-link">Testimonials</a></li>
+                                    <li class="nav-item"><a href="{{'/pricing'}}" class="nav-link">Pricing</a></li>
+                                    <li class="nav-item"><a href="{{'/blog'}}" class="nav-link">Blog</a></li>
+                                    <li class="nav-item"><a href="{{'/contact'}}" class="nav-link">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
